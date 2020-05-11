@@ -1,0 +1,43 @@
+/* HEADER */
+header h1{
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* MAIN */
+main{
+    width: 80rem;
+    margin: 0 auto;
+    border: solid .1rem #ccc;
+    overflow: auto;
+    box-shadow: 0 0 .5rem 0 #ccc;
+}
+main figure{
+    
+    float: left;
+    display: block;
+    width: calc(92%/3);
+    margin: 2%;
+}
+main figure:not(last-child){
+    margin-right: 0;
+}
+main figure img{
+    display: block;
+    width: 100%;
+}
+main figure figcaption h2{
+    text-align: center;
+    color: #fff;
+    background-color: #0d47a1;
+}
+main figure figcaption p{
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #e3f2fd;
+    padding: .5rem;
+}
+main figure figcaption p span{
+    color: #0d47a1; 
+}
